@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Scott_CL\\Git\\AzureBlobStorage\\BlobQuickstartV12\\BlobQuickstartV12\\BlobQuickstartV12.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Scott_CL\\Git\\AzureBlobStorage\\BlobQuickstartV12\\BlobQuickstartV12\\BlobQuickstartV12.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Scott_CL\\Git\\AzureBlobStorage\\BlobQuickstartV12\\BlobQuickstartV12\\BlobQuickstartV12.csproj",
+        "projectName": "BlobQuickstartV12",
+        "projectPath": "C:\\Users\\Scott_CL\\Git\\AzureBlobStorage\\BlobQuickstartV12\\BlobQuickstartV12\\BlobQuickstartV12.csproj",
+        "packagesPath": "C:\\Users\\Scott_CL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Scott_CL\\Git\\AzureBlobStorage\\BlobQuickstartV12\\BlobQuickstartV12\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Scott_CL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
